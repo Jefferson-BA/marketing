@@ -5,10 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Customer Journey Map</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 </head>
 <body>
 
-<div class="container">
+<div class="action-buttons">
+    <button id="save-img-btn" class="btn btn-primary">📷 Descargar como Imagen</button>
+    <button id="save-pdf-btn" class="btn btn-secondary">📄 Guardar como PDF</button>
+    <button id="clear-btn" class="btn btn-danger">🗑️ Limpiar Mapa</button>
+</div>
+
+<div id="capture-area" class="container">
     <h1>Customer Journey Map</h1>
 
     <div class="metadata-section">
@@ -28,7 +35,6 @@
             </tr>
         </thead>
         <tbody>
-            
             <tr>
                 <td class="label-cell">
                     <span class="label-title">Acciones</span>
@@ -94,11 +100,8 @@
                 <td><div class="editable-content" contenteditable="true">Type something...</div></td>
                 <td><div class="editable-content" contenteditable="true">Type something...</div></td>
             </tr>
-
         </tbody>
     </table>
-    
-    <button id="clear-btn" style="margin-top: 20px; padding: 10px 15px; background: #e53e3e; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold;">Limpiar Mapa</button>
 </div>
 
 <script src="script.js"></script>
