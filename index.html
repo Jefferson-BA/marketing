@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Journey Map</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Customer Journey Map</h1>
+
+    <div class="metadata-section">
+        <div><span class="meta-item">Experiencia:</span> <span class="meta-value" contenteditable="true">Escribe la experiencia aquí...</span></div>
+        <div><span class="meta-item">Día/Hora/Lugar:</span> <span class="meta-value" contenteditable="true">Escribe los detalles aquí...</span></div>
+        <div><span class="meta-item">Integrantes:</span> <span class="meta-value" contenteditable="true">Escribe los integrantes aquí...</span></div>
+    </div>
+
+    <table class="cjm-table">
+        <thead>
+            <tr>
+                <th><div class="arrow arrow-pasos">PASOS</div></th>
+                <th><div class="arrow arrow-desc">Descubrimiento</div></th>
+                <th><div class="arrow arrow-cons">Consideración</div></th>
+                <th><div class="arrow arrow-deci">Decisión</div></th>
+                <th><div class="arrow arrow-reco">Recomendación</div></th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr>
+                <td class="label-cell">
+                    <span class="label-title">Acciones</span>
+                    <span class="label-subtitle">¿Qué hace el cliente?</span>
+                </td>
+                <td><div class="editable-content" contenteditable="true">Type something...</div></td>
+                <td><div class="editable-content" contenteditable="true">Type something...</div></td>
+                <td><div class="editable-content" contenteditable="true">Type something...</div></td>
+                <td><div class="editable-content" contenteditable="true">Type something...</div></td>
+            </tr>
+
+            <tr>
+                <td class="label-cell">
+                    <span class="label-title">Pensamientos</span>
+                    <span class="label-subtitle">¿Qué piensa el cliente?</span>
+                </td>
+                <td><div class="editable-content" contenteditable="true">Type something...</div></td>
+                <td><div class="editable-content" contenteditable="true">Type something...</div></td>
+                <td><div class="editable-content" contenteditable="true">Type something...</div></td>
+                <td><div class="editable-content" contenteditable="true">Type something...</div></td>
+            </tr>
+
+            <tr>
+                <td class="label-cell">
+                    <span class="label-title">Emociones</span>
+                    <span class="label-subtitle">¿Qué emociones siente el cliente?</span>
+                </td>
+                <td><div class="emoji-container" contenteditable="true">🙂</div></td>
+                <td><div class="emoji-container" contenteditable="true">😐</div></td>
+                <td><div class="emoji-container" contenteditable="true">😠</div></td>
+                <td><div class="emoji-container" contenteditable="true">😄 😍</div></td>
+            </tr>
+
+            <tr>
+                <td class="label-cell">
+                    <span class="label-title">Puntos de dolor</span>
+                    <span class="label-subtitle">Problemas que enfrenta el cliente</span>
+                </td>
+                <td><div class="editable-content" contenteditable="true">Type something...</div></td>
+                <td><div class="editable-content" contenteditable="true">Type something...</div></td>
+                <td><div class="editable-content" contenteditable="true">Type something...</div></td>
+                <td><div class="editable-content" contenteditable="true">Type something...</div></td>
+            </tr>
+
+            <tr>
+                <td class="label-cell">
+                    <span class="label-title">Oportunidades</span>
+                    <span class="label-subtitle">Mejoras o ideas</span>
+                </td>
+                <td><div class="editable-content" contenteditable="true">Type something...</div></td>
+                <td><div class="editable-content" contenteditable="true">Type something...</div></td>
+                <td><div class="editable-content" contenteditable="true">Type something...</div></td>
+                <td><div class="editable-content" contenteditable="true">Type something...</div></td>
+            </tr>
+
+            <tr>
+                <td class="label-cell">
+                    <span class="label-title">Puntos de contacto</span>
+                    <span class="label-subtitle">¿Dónde interactúa el usuario?</span>
+                </td>
+                <td><div class="editable-content" contenteditable="true">Type something...</div></td>
+                <td><div class="editable-content" contenteditable="true">Type something...</div></td>
+                <td><div class="editable-content" contenteditable="true">Type something...</div></td>
+                <td><div class="editable-content" contenteditable="true">Type something...</div></td>
+            </tr>
+
+        </tbody>
+    </table>
+    
+    <button id="clear-btn" style="margin-top: 20px; padding: 10px 15px; background: #e53e3e; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold;">Limpiar Mapa</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

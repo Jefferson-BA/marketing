@@ -1,0 +1,159 @@
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f7f9fa;
+    margin: 0;
+    padding: 40px 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Título Principal */
+h1 {
+    text-align: center;
+    color: #956cd3;
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+/* Sección de Metadatos */
+.metadata-section {
+    margin-bottom: 35px;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.meta-item {
+    font-weight: bold;
+    color: #111;
+}
+
+.meta-value {
+    font-weight: normal;
+    color: #666;
+    outline: none;
+    border-bottom: 1px dashed #ccc;
+    padding-right: 50px;
+}
+
+/* Tabla Estructura */
+.cjm-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    table-layout: fixed;
+}
+
+/* Cabeceras */
+.cjm-table th {
+    padding: 10px 2px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+/* Formas de flecha (Chevrons) con Clip-Path */
+.arrow-pasos {
+    background-color: #4d4d4d;
+    clip-path: polygon(0% 0%, 88% 0%, 100% 50%, 88% 100%, 0% 100%);
+    padding-right: 15px;
+}
+
+.arrow-desc {
+    background-color: #3b66f5;
+    clip-path: polygon(0% 0%, 88% 0%, 100% 50%, 88% 100%, 0% 100%, 12% 50%);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.arrow-cons {
+    background-color: #956cd3;
+    clip-path: polygon(0% 0%, 88% 0%, 100% 50%, 88% 100%, 0% 100%, 12% 50%);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.arrow-deci {
+    background-color: #e68fa7;
+    clip-path: polygon(0% 0%, 88% 0%, 100% 50%, 88% 100%, 0% 100%, 12% 50%);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.arrow-reco {
+    background-color: #72c3a6;
+    clip-path: polygon(0% 0%, 88% 0%, 100% 50%, 88% 100%, 0% 100%, 12% 50%);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Celdas de Contenido */
+.cjm-table td {
+    border: 1px solid #e2e8f0;
+    padding: 18px;
+    vertical-align: top;
+    background-color: #ffffff;
+}
+
+/* Columna Izquierda (Categorías) */
+.label-cell {
+    background-color: #ffffff;
+    width: 18%;
+}
+
+.label-title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #1a1a1a;
+    display: block;
+}
+
+.label-subtitle {
+    font-size: 12px;
+    color: #718096;
+    margin-top: 4px;
+    display: block;
+    font-weight: normal;
+}
+
+/* Campos Editables */
+.editable-content {
+    color: #4a5568;
+    font-size: 14px;
+    min-height: 60px;
+    outline: none;
+    white-space: pre-wrap;
+}
+
+.editable-content:focus {
+    background-color: #f7fafc;
+    border-radius: 4px;
+}
+
+/* Fila de Emociones */
+.emoji-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 32px;
+    outline: none;
+}
